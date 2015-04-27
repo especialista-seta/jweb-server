@@ -1,5 +1,3 @@
-package java.web_server;
-
 import java.io.IOException;
 
 import javax.servlet.ServletException;
