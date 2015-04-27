@@ -21,7 +21,8 @@ public class Main extends HttpServlet {
 		if (req.getRequestURI().endsWith("/db")) {
 			showDatabase(req, resp);
 		} else {
-			 showHome(req, resp);
+			showHome(req, resp);
+			resp.getWriter().print(" ".concat(req.getRequestURI()));
 		}
 	}
 
