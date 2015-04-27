@@ -27,7 +27,7 @@ public class Main extends HttpServlet {
 
 	private void showHome(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		resp.getWriter().print("Hola Paquita! ¿Que tal el zumo de tomate?");
+		resp.getWriter().print("There's nothing to see here");
 	}
 
 	private void showDatabase(HttpServletRequest req, HttpServletResponse resp)
